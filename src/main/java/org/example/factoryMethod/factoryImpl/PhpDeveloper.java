@@ -1,4 +1,6 @@
-package org.example.factoryMethod;
+package org.example.factoryMethod.factoryImpl;
+
+import org.example.factoryMethod.factory.Developer;
 
 public class PhpDeveloper implements Developer {
     @Override

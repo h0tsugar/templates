@@ -6,10 +6,9 @@ repositories {
     mavenCentral()
 }
 
-java {
-    version = 17
-}
 
 dependencies {
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+//    compileOnly("org.projectlombok:lombok")
+
+//    annotationProcessor("org.projectlombok:lombok")
 }

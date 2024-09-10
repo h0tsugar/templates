@@ -1,8 +1,9 @@
-package org.example.factoryMethod;
+package org.example.bridge;
 
 public class JavaDeveloper implements Developer {
+
     @Override
     public void writeCode() {
-        System.out.println("Java developer writes java code");
+        System.out.println("Write Java code");
     }
 }
